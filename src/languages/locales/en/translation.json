@@ -1,0 +1,28 @@
+{
+  "terms": {
+    "agree": "I agree with",
+    "term": "the terms of use",
+    "privacy": "and the privacy policy."
+  },
+  "header": {
+    "text-1": "Services",
+    "text-2": "Products",
+    "text-3": "About",
+    "text-4": "Contacts",
+    "text-5": "Contact Us"
+  },
+  "home": {
+    "text-1": "Smart solution - enjoy and experience the technology life in your ways.",
+    "text-2": "Dive into the world of Digital to Accelerate the transition to the next generation of technology!",
+    "text-3": "Contact Us"
+  },
+  "footer": {
+    "text-1": "Smart solution - enjoy and experience the technology life in your ways.",
+    "text-2": "Navigation",
+    "text-3": "Contact",
+    "text-4": "All Rights Reserved",
+    "text-5": "Powered by AFIK FOUNDATION",
+    "text-6": "Privacy policy",
+    "text-7": "Term and conditions"
+  }
+}

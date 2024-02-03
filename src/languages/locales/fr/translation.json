@@ -1,0 +1,28 @@
+{
+  "terms": {
+    "agree": "J'accepte",
+    "term": "les conditions d'utilisations",
+    "privacy": "et la politique de confidentialité."
+  },
+  "header": {
+    "text-1": "Services",
+    "text-2": "Produits",
+    "text-3": "A propos",
+    "text-4": "Contacts",
+    "text-5": "Contactez-nous"
+  },
+  "home": {
+    "text-1": "Solution intelligente - profitez et expérimentez la vie technologique à votre façon.",
+    "text-2": "Plonger dans le monde du Digital afin d'Accelerer la transition vers la nouvelle génération technologique!",
+    "text-3": "Contactez-nous"
+  },
+  "footer": {
+    "text-1": "Solution intelligente - profitez et expérimentez la vie technologique à votre façon.",
+    "text-2": "Navigation",
+    "text-3": "Contact",
+    "text-4": "Tous droits réservés",
+    "text-5": "Développé par AFIK FOUNDATION",
+    "text-6": "Politique de confidentialité",
+    "text-7": "Conditions d'utilisation"
+  }
+}
