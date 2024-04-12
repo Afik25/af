@@ -64,7 +64,7 @@ const Home = () => {
               </div>
             </div>
             <div className="right" data-aos="fade-left">
-              <img src={process.env.PUBLIC_URL + "lab.png"} alt="lab-img"/>
+              <img src={process.env.PUBLIC_URL + "/lab.png"} alt="lab-img"/>
             </div>
           </div>
         </div>
