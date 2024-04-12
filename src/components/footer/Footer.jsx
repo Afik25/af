@@ -6,7 +6,6 @@ import {
   FaFacebookF,
   FaTwitter,
   FaLinkedinIn,
-  FaYoutube,
   FaAt,
   FaMapMarkerAlt,
 } from "../../middlewares/icons";
@@ -18,7 +17,7 @@ const Footer = () => {
       <div className="container">
         <div className="top">
           <div className="left">
-            <img src={process.env.PUBLIC_URL + "/logo-white.png"} />
+            <img src={process.env.PUBLIC_URL + "/logo-white.png"} alt="white-logo"/>
             <p className="title t-3">{t("footer.text-1")}</p>
           </div>
           <div className="center">

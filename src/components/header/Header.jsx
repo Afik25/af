@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { Link as ToSection } from "react-scroll";
 import ControlLanguage from "../languages/ControlLanguage";
 
 const Header = () => {
@@ -24,6 +23,7 @@ const Header = () => {
         <Link to="/">
           <img
             src={process.env.PUBLIC_URL + "/logo-blue.png"}
+            alt="blue-logo"
             className="logo"
           />
         </Link>

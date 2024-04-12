@@ -15,10 +15,10 @@ const ControlLanguage = () => {
   // en-US
   // fr
 
-  useEffect(()=>{
+  useEffect(() => {
     const lng = navigator.language;
     i18n.changeLanguage(lng);
-  }, [])
+  }, []);
 
   return (
     <div className="languages">

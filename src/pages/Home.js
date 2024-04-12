@@ -64,7 +64,7 @@ const Home = () => {
               </div>
             </div>
             <div className="right" data-aos="fade-left">
-              <img src={process.env.PUBLIC_URL + "lab.png"} />
+              <img src={process.env.PUBLIC_URL + "lab.png"} alt="lab-img"/>
             </div>
           </div>
         </div>
@@ -235,7 +235,7 @@ const Home = () => {
             <div className="item">
               <div className="item-icon">
                 <div className="icon-left">
-                  <img src={MASOMO} />
+                  <img src={MASOMO} alt="masomo-img"/>
                 </div>
                 <div className="icon-right">
                   <span>EdTech</span>
@@ -259,7 +259,7 @@ const Home = () => {
             <div className="item">
               <div className="item-icon">
                 <div className="icon-left">
-                  <img src={SHOP} />
+                  <img src={SHOP} alt="shop-img"/>
                 </div>
                 <div className="icon-right">
                   <span>Business</span>
@@ -283,7 +283,7 @@ const Home = () => {
             <div className="item">
               <div className="item-icon">
                 <div className="icon-left">
-                  <img src={AFYA} />
+                  <img src={AFYA} alt="afya-img"/>
                 </div>
                 <div className="icon-right">
                   <span>HealthTech</span>
@@ -307,7 +307,7 @@ const Home = () => {
             <div className="item">
               <div className="item-icon">
                 <div className="icon-left">
-                  <img src={NA_AI} />
+                  <img src={NA_AI} alt="na-ai_img"/>
                 </div>
                 <div className="icon-right">
                   <span>AI</span>
@@ -379,7 +379,7 @@ const Home = () => {
         <div className="labs">
           <div className="container">
             <div className="right">
-              <img src={process.env.PUBLIC_URL + "/ai.png"} />
+              <img src={process.env.PUBLIC_URL + "/ai.png"} alt="ai-lab_img" />
             </div>
             <div className="left">
               <h3 className="title t-2">
