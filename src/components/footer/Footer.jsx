@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
         <div className="bottom">
           <div className="left">
-            <span>&copy; {new Date().getFullYear()} MASOMO, {t("footer.text-4")}.</span>
+            <span>&copy; {new Date().getFullYear()} Afik Foundation, {t("footer.text-4")}.</span>
             <Link to="" className="link">
               {t("footer.text-5")}
             </Link>
