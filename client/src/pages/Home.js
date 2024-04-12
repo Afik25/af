@@ -27,15 +27,15 @@ import tile1 from "../assets/images/tile1.png";
 import tile2 from "../assets/images/tile2.png";
 import tile3 from "../assets/images/tile3.png";
 // importing aos
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
   const { t } = useTranslation();
 
   React.useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
 
   return (
     <React.Fragment>
@@ -64,44 +64,39 @@ const Home = () => {
               </div>
             </div>
             <div className="right" data-aos="fade-left">
-              <img src={process.env.PUBLIC_URL + "/lab.png"} alt="lab-img"/>
+              <img src={process.env.PUBLIC_URL + "/lab.png"} alt="lab-img" />
             </div>
           </div>
         </div>
         {/* section */}
         <div className="section" data-aos="zoom-in">
           <div className="head">
-            <h2 className="title t-1">
-              Nous produisons des résultats satisfaisants et impactants
-              possibles que grâce aux valeurs que nous imprimons
-            </h2>
+            <h2 className="title t-1">{t("home.text-4.main")}</h2>
           </div>
           <div className="container">
             <div className="item">
               <BsCheck2All className="icon" />
-              <h3 className="title t-3">Créativité</h3>
+              <h3 className="title t-3">{t("home.text-4.one")}</h3>
             </div>
             <div className="item">
               <BsCheck2All className="icon" />
-              <h3 className="title t-3">Rapidité</h3>
+              <h3 className="title t-3">{t("home.text-4.two")}</h3>
             </div>
             <div className="item">
               <BsCheck2All className="icon" />
-              <h3 className="title t-3">Intégrité</h3>
+              <h3 className="title t-3">{t("home.text-4.three")}</h3>
             </div>
             <div className="item">
               <BsCheck2All className="icon" />
-              <h3 className="title t-3">Serviabilité</h3>
+              <h3 className="title t-3">{t("home.text-4.four")}</h3>
             </div>
           </div>
         </div>
         {/* service */}
         <div className="services">
           <div className="head">
-            <h1 className="title t-1">Nos services</h1>
-            <p className="title t-2">
-              Consultance, Création rapide d'une expérience numérique.
-            </p>
+            <h1 className="title t-1">{t("home.text-5.title")}</h1>
+            <p className="title t-2">{t("home.text-5.subtitle")}</p>
             <hr />
           </div>
           <div className="container">
@@ -112,97 +107,101 @@ const Home = () => {
                 </div>
               </div>
               <div>
-                <h3 className="title t-1">Développement des Applications</h3>
+                <h3 className="title t-1">
+                  {t("home.text-5.items.item-1.title")}
+                </h3>
                 <p className="title t-2">
-                  Avec une approche intégrée, nous développons des applications
-                  web, mobiles, plateforme sur mesure.
+                  {t("home.text-5.items.item-1.description")}
                 </p>
               </div>
             </div>
-            <div className="item" data-aos="fade-up"  data-aos-duration="3000">
+            <div className="item" data-aos="fade-up" data-aos-duration="3000">
               <div className="item-icon">
                 <div className="icon-inside">
                   <MdDevices className="icon" />
                 </div>
               </div>
               <div>
-                <h3 className="title t-1">Conception et Design</h3>
+                <h3 className="title t-1">
+                  {t("home.text-5.items.item-2.title")}
+                </h3>
                 <p className="title t-2">
-                  Conception UI/UX Responsive des interfaces utilisateurs web et
-                  mobile ergonomique avec une expérience d'utilisation
-                  intuitive.
+                  {t("home.text-5.items.item-2.description")}
                 </p>
               </div>
             </div>
-            <div className="item" data-aos="fade-up"  data-aos-duration="4000">
+            <div className="item" data-aos="fade-up" data-aos-duration="4000">
               <div className="item-icon">
                 <div className="icon-inside">
                   <FaChartPie className="icon" />
                 </div>
               </div>
               <div>
-                <h3 className="title t-1">Ingénierie des données</h3>
+                <h3 className="title t-1">
+                  {t("home.text-5.items.item-3.title")}
+                </h3>
                 <p className="title t-2">
-                  Traitement et Analyse de Données; Suivant le standard
-                  adequate, nous traitons et donnons de la valeur aux données
-                  pour une explotation efficiente.
+                  {t("home.text-5.items.item-3.description")}
                 </p>
               </div>
             </div>
-            <div className="item" data-aos="fade-up"  data-aos-duration="5000">
+            <div className="item" data-aos="fade-up" data-aos-duration="5000">
               <div className="item-icon">
                 <div className="icon-inside">
                   <IoCloudUpload className="icon" />
                 </div>
               </div>
               <div>
-                <h3 className="title t-1">Déploiement sur Cloud</h3>
+                <h3 className="title t-1">
+                  {t("home.text-5.items.item-4.title")}
+                </h3>
                 <p className="title t-2">
-                  Avec nos conseils bénéfiques sur le choix dans l'ensemble des
-                  fournisseurs cloud, nous aidons les clients à mettre leurs
-                  solutions sur Cloud afin de bénéficier de services y relatif.
+                  {t("home.text-5.items.item-4.description")}
                 </p>
               </div>
             </div>
-            <div className="item" data-aos="fade-up"  data-aos-duration="6000">
+            <div className="item" data-aos="fade-up" data-aos-duration="6000">
               <div className="item-icon">
                 <div className="icon-inside">
                   <TbApi className="icon" />
                 </div>
               </div>
               <div>
-                <h3 className="title t-1">Développement d'APIs</h3>
+                <h3 className="title t-1">
+                  {t("home.text-5.items.item-5.title")}
+                </h3>
                 <p className="title t-2">
-                  Avec notre expertise dans plusieurs technologies (Python,
-                  JavaScripy, .Net, Java, etc.), nous concevons et implementons
-                  des APIs adaptées seloin les besoins du client.
+                  {t("home.text-5.items.item-5.description")}
                 </p>
               </div>
             </div>
-            <div className="item" data-aos="fade-up"  data-aos-duration="7000">
+            <div className="item" data-aos="fade-up" data-aos-duration="7000">
               <div className="item-icon">
                 <div className="icon-inside">
                   <AiTwotoneApi className="icon" />
                 </div>
               </div>
               <div>
-                <h3 className="title t-1">Intégrations</h3>
+                <h3 className="title t-1">
+                  {t("home.text-5.items.item-6.title")}
+                </h3>
                 <p className="title t-2">
-                  Intégrations des solutions sous forme de differentes bloques
-                  afin d'en constituer une seule et unique solution.
+                  {t("home.text-5.items.item-6.description")}
                 </p>
               </div>
             </div>
-            <div className="item" data-aos="fade-up"  data-aos-duration="8000">
+            <div className="item" data-aos="fade-up" data-aos-duration="8000">
               <div className="item-icon">
                 <div className="icon-inside">
                   <MdUnfoldMoreDouble className="icon" />
                 </div>
               </div>
               <div>
-                <h3 className="title t-1">Plus</h3>
+                <h3 className="title t-1">
+                  {t("home.text-5.items.item-7.title")}
+                </h3>
                 <p className="title t-2">
-                  D'autres services liés au numérique.
+                  {t("home.text-5.items.item-7.description")}
                 </p>
               </div>
             </div>
@@ -211,46 +210,44 @@ const Home = () => {
         {/* ruban */}
         <div className="ruban">
           <div className="container">
-            <h2 className="title t-1">Commençon quelque chose de grand!</h2>
+            <h2 className="title t-1">{t("home.text-6.one")}</h2>
             <div>
-              <p className="title t-2">
-                Parlez de votre idée de projet pour lequel vous comptez
-                travailler avec nous; et nous vous repondons dans les 48heures
-                qui suivent!
-              </p>
-              <button>Démarer une conversation</button>
+              <p className="title t-2">{t("home.text-6.two")}</p>
+              <button>
+                <Link to={""} className="link">
+                  {t("home.text-6.three")}
+                </Link>
+              </button>
             </div>
           </div>
         </div>
         {/* product */}
         <div className="products">
           <div className="head">
-            <h1 className="title t-1">Nos Produits</h1>
-            <p className="title t-2">
-              Nous avons proposé sur le marché, les produits digitals qui
-              impacte la vie quotidienne de la société....
-            </p>
+            <h1 className="title t-1">{t("home.text-7.title")}</h1>
+            <p className="title t-2">{t("home.text-7.subtitle")}</p>
           </div>
           <div className="container">
             <div className="item">
               <div className="item-icon">
                 <div className="icon-left">
-                  <img src={MASOMO} alt="masomo-img"/>
+                  <img src={MASOMO} alt="masomo-img" />
                 </div>
                 <div className="icon-right">
                   <span>EdTech</span>
                 </div>
               </div>
               <div>
-                <h3 className="title t-1">MASOMO</h3>
+                <h3 className="title t-1">
+                  {t("home.text-7.items.item-1.title")}
+                </h3>
                 <p className="title t-2">
-                  Un école numérique, accessible partout et à n'importe quel
-                  moment.
+                  {t("home.text-7.items.item-1.description")}
                 </p>
               </div>
               <div className="more">
                 <Link to="" className="link">
-                  <span>Propriétaire</span>
+                  <span>{t("home.text-7.items.item-1.type")}</span>
                   <span style={{ color: "#d4af37" }}>(Beta)</span>
                   <HiOutlineExternalLink />
                 </Link>
@@ -259,22 +256,23 @@ const Home = () => {
             <div className="item">
               <div className="item-icon">
                 <div className="icon-left">
-                  <img src={SHOP} alt="shop-img"/>
+                  <img src={SHOP} alt="shop-img" />
                 </div>
                 <div className="icon-right">
                   <span>Business</span>
                 </div>
               </div>
               <div>
-                <h3 className="title t-1">SHOP</h3>
+                <h3 className="title t-1">
+                  {t("home.text-7.items.item-2.title")}
+                </h3>
                 <p className="title t-2">
-                  ERP, une plateforme de gestion d'une organisation dotée de
-                  plusieurs modules de gestion.
+                  {t("home.text-7.items.item-2.description")}
                 </p>
               </div>
               <div className="more">
                 <Link to="" className="link">
-                  <span>Propriétaire</span>
+                  <span>{t("home.text-7.items.item-2.type")}</span>
                   <span style={{ color: "#d4af37" }}>(Beta)</span>
                   <HiOutlineExternalLink />
                 </Link>
@@ -283,22 +281,23 @@ const Home = () => {
             <div className="item">
               <div className="item-icon">
                 <div className="icon-left">
-                  <img src={AFYA} alt="afya-img"/>
+                  <img src={AFYA} alt="afya-img" />
                 </div>
                 <div className="icon-right">
                   <span>HealthTech</span>
                 </div>
               </div>
               <div>
-                <h3 className="title t-1">AFYA</h3>
+                <h3 className="title t-1">
+                  {t("home.text-7.items.item-3.title")}
+                </h3>
                 <p className="title t-2">
-                  Une plateforme de gestion de dossier medicale et controle de
-                  son État de Santé.
+                  {t("home.text-7.items.item-3.description")}
                 </p>
               </div>
               <div className="more">
                 <Link to="" className="link">
-                  <span>Propriétaire</span>
+                  <span>{t("home.text-7.items.item-3.type")}</span>
                   <span style={{ color: "#d4af37" }}>(Beta)</span>
                   <HiOutlineExternalLink />
                 </Link>
@@ -307,21 +306,23 @@ const Home = () => {
             <div className="item">
               <div className="item-icon">
                 <div className="icon-left">
-                  <img src={NA_AI} alt="na-ai_img"/>
+                  <img src={NA_AI} alt="na-ai_img" />
                 </div>
                 <div className="icon-right">
                   <span>AI</span>
                 </div>
               </div>
               <div>
-                <h3 className="title t-1">NA-AI</h3>
+                <h3 className="title t-1">
+                  {t("home.text-7.items.item-4.title")}
+                </h3>
                 <p className="title t-2">
-                  Une plateforme à de fins d'intelligence artificielle.
+                  {t("home.text-7.items.item-4.description")}
                 </p>
               </div>
               <div className="more">
                 <Link to="" className="link">
-                  <span>Propriétaire</span>
+                  <span>{t("home.text-7.items.item-4.type")}</span>
                   <span style={{ color: "#d4af37" }}>(Beta)</span>
                   <HiOutlineExternalLink />
                 </Link>
@@ -333,15 +334,11 @@ const Home = () => {
         <div className="about">
           <div className="container">
             <div className="left">
-              <h2 className="title t-1">A propos de nous</h2>
-              <p>
-                Nous sommes une structure engagée et déterminer à faire de la
-                technologie, un outil puissant et accompagnateur de la société
-                dans son quotidien; afin de rendre certaines tâches beaucoup
-                plus simple!
-              </p>
+              <h2 className="title t-1">{t("home.text-8.title")}</h2>
+              <p>{t("home.text-8.description")}</p>
               <h3 className="title t-2">
-                Nous sommes, <br /> <span>Afik Foundation.</span>
+                {t("home.text-8.subtitle")}, <br />{" "}
+                <span>Afik Foundation.</span>
               </h3>
             </div>
             <div className="right">
@@ -385,37 +382,27 @@ const Home = () => {
               <h3 className="title t-2">
                 Afik Foundation, <br />
                 <br />
-                <span>
-                  C'est aussi un laboratoire d'Intelligence Artificielle...
-                </span>
+                <span>{t("home.text-9.title")}</span>
               </h3>
-              <p>
-                Nous nous servons de données pour développer des outils
-                intelligent bénéfique pour l'industrie...
-              </p>
-              <h2 className="title t-1">IA pour la société!</h2>
+              <p>{t("home.text-9.description")}</p>
+              <h2 className="title t-1">{t("home.text-9.subtitle")}</h2>
             </div>
           </div>
         </div>
         {/* Partners */}
         <div className="partnership">
-          <h1 className="title t-2">
-            There are working with us.
-          </h1>
+          <h1 className="title t-2">{t("home.text-10")}</h1>
           <div className="container">
-            <img src={PAMOJA_AI} alt="pamoja-ai"/>
-            <img src={NA_AI} alt="na-ai"/>
-            <img src={AFYA} alt="afya"/>
+            <img src={PAMOJA_AI} alt="pamoja-ai" />
+            <img src={NA_AI} alt="na-ai" />
+            <img src={AFYA} alt="afya" />
           </div>
         </div>
         {/* Contacts */}
         <div className="contacts">
           <div className="head">
-            <h1 className="title t-1">Contactez-nous</h1>
-            <p className="title t-2">
-              24heure/24, Notre équipe d'assistance est disponible et prête à
-              vous répondre.
-            </p>
+            <h1 className="title t-1">{t("home.text-11.title")}</h1>
+            <p className="title t-2">{t("home.text-11.subtitle")}</p>
           </div>
           <div className="container">
             <div className="left">
@@ -438,23 +425,41 @@ const Home = () => {
                     <MdLocationPin />
                   </span>
                   <span className="details">
-                    Kinshasa - Democratic Republic of Congo
+                    {t("home.text-11.description.element-1")}
                   </span>
                 </div>
               </div>
             </div>
             <div className="right">
               <form>
-                <input type="text" id="" name="" placeholder="Votre noms" />
-                <input type="text" id="" name="" placeholder="Votre e-mail" />
                 <input
                   type="text"
                   id=""
                   name=""
-                  placeholder="Objet du message"
+                  placeholder={t("home.text-11.description.element-2")}
                 />
-                <textarea name="" placeholder="Votre message"></textarea>
-                <input type="button" id="" name="" value="Envoyer" />
+                <input
+                  type="text"
+                  id=""
+                  name=""
+                  placeholder={t("home.text-11.description.element-3")}
+                />
+                <input
+                  type="text"
+                  id=""
+                  name=""
+                  placeholder={t("home.text-11.description.element-4")}
+                />
+                <textarea
+                  name=""
+                  placeholder={t("home.text-11.description.element-5")}
+                ></textarea>
+                <input
+                  type="button"
+                  id=""
+                  name=""
+                  value={t("home.text-11.description.element-6")}
+                />
               </form>
             </div>
           </div>
@@ -462,15 +467,12 @@ const Home = () => {
         {/* Testimonies */}
         <div className="testimony">
           <div className="c-90 m-auto">
-            <h3 className="title t-2">Ce que l'on dit de nous !</h3>
+            <h3 className="title t-2">{t("home.text-12.title")}</h3>
           </div>
           <div className="container">
             <div className="testimony-item">
               <div className="testy-card m-auto">
-                <p className="title t-2">
-                  Merci Afik Foundation pour le service combien louable que vous
-                  nous avez rendu pour la numérisation de nos travaux.
-                </p>
+                <p className="title t-2">{t("home.text-12.description")}</p>
                 <h3 className="title t-1">Edourd ELOLO</h3>
                 <p className="title t-3">MASOMO, Manager</p>
               </div>

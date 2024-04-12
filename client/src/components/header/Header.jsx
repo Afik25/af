@@ -35,21 +35,21 @@ const Header = () => {
         </div>
         <div className={open ? "nav display-flex-important" : "nav"}>
           <Link to="" className="nav-item link">
-            {t("header.text-1")}
+            {t("components.header.text-1")}
           </Link>
           <Link to="" className="nav-item link">
-            {t("header.text-2")}
+            {t("components.header.text-2")}
           </Link>
           <Link to="/about" className="nav-item link">
-            {t("header.text-3")}
+            {t("components.header.text-3")}
           </Link>
           <Link to="" className="nav-item link">
-            {t("header.text-4")}
+            {t("components.header.text-4")}
           </Link>
         </div>
         <div className={open ? "sign-nav display-flex-important" : "sign-nav"}>
           <Link to="" className="button">
-            {t("header.text-5")}
+            {t("components.header.text-5")}
           </Link>
           <ControlLanguage />
         </div>

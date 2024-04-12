@@ -2,7 +2,8 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import {
-  BiPhone,BiMessage,
+  BiPhone,
+  BiMessage,
   FaFacebookF,
   FaTwitter,
   FaLinkedinIn,
@@ -17,26 +18,29 @@ const Footer = () => {
       <div className="container">
         <div className="top">
           <div className="left">
-            <img src={process.env.PUBLIC_URL + "/logo-white.png"} alt="white-logo"/>
-            <p className="title t-3">{t("footer.text-1")}</p>
+            <img
+              src={process.env.PUBLIC_URL + "/logo-white.png"}
+              alt="white-logo"
+            />
+            <p className="title t-3">{t("components.footer.text-1")}</p>
           </div>
           <div className="center">
-            <h3 className="title t-2">{t("footer.text-2")}</h3>
+            <h3 className="title t-2">{t("components.footer.text-2")}</h3>
             <Link to="" className="link">
-              {t("header.text-1")}
+              {t("components.header.text-1")}
             </Link>
             <Link to="" className="link">
-              {t("header.text-2")}
+              {t("components.header.text-2")}
             </Link>
             <Link to="" className="link">
-              {t("header.text-3")}
+              {t("components.header.text-3")}
             </Link>
             <Link to="" className="link">
-              {t("header.text-4")}
+              {t("components.header.text-4")}
             </Link>
           </div>
           <div className="right">
-            <h3 className="title t-2">{t("footer.text-3")}</h3>
+            <h3 className="title t-2">{t("components.footer.text-3")}</h3>
             <p className="title t-3">
               <FaAt className="icon" /> <span>info@afoundation.org</span>
             </p>
@@ -45,20 +49,17 @@ const Footer = () => {
             </p>
             <p className="title t-3">
               <FaMapMarkerAlt className="icon" />{" "}
-              <span>Kinshasa - Democratic Republic of Congo</span>
+              <span>{t("home.text-11.description.element-1")}</span>
             </p>
           </div>
           <div className="socials-network">
             <div className="c-70 m-auto">
-              <p>
-                Restez aussi informez à temps réel sur tous les évenéments en
-                vous abonnant à la Newsletter !
-              </p>
+              <p>{t("home.text-12.subtitle.element-1")}</p>
               <form className="display-flex justify-content-center align-items-center">
                 <input type="text" placeholder="xyz@mail.com" />
                 <button className="button">
                   <BiMessage />
-                  <span>Abonnez-vous</span>
+                  <span>{t("home.text-12.subtitle.element-2")}</span>
                 </button>
               </form>
             </div>
@@ -86,17 +87,20 @@ const Footer = () => {
         </div>
         <div className="bottom">
           <div className="left">
-            <span>&copy; {new Date().getFullYear()} Afik Foundation, {t("footer.text-4")}.</span>
+            <span>
+              &copy; {new Date().getFullYear()} Afik Foundation,{" "}
+              {t("components.footer.text-4")}.
+            </span>
             <Link to="" className="link">
-              {t("footer.text-5")}
+              {t("components.footer.text-5")}
             </Link>
           </div>
           <div className="right">
             <Link to="" className="link">
-              {t("footer.text-6")}
+              {t("components.footer.text-6")}
             </Link>
             <Link to="" className="link">
-              {t("footer.text-7")}
+              {t("components.footer.text-7")}
             </Link>
           </div>
         </div>
