@@ -942,7 +942,7 @@ body {
         justify-content: space-between;
         flex-wrap: wrap;
         .item {
-          width: 45.5%;
+          width: 45%;
           margin: $size-05;
           .item-icon {
             width: 50px;
@@ -980,7 +980,7 @@ body {
       }
     }
     .products {
-      padding: $size-2;
+      padding: $size-1;
       .title {
         margin: 0;
       }
@@ -998,7 +998,7 @@ body {
         justify-content: center;
         flex-wrap: wrap;
         .item {
-          width: 47%;
+          width: 45%;
           .t-1 {
             font-size: $size-08;
           }
@@ -1031,8 +1031,9 @@ body {
         .right {
           width: 100%;
           .tile {
-            height: 130px;
+            height: 80px;
           }
+          
         }
       }
     }
@@ -1063,7 +1064,7 @@ body {
         }
         .right {
           width: 100%;
-          max-height: 200px;
+          max-height: 180px;
           img {
             width: 100%;
             height: 100%;
@@ -1072,6 +1073,7 @@ body {
       }
     }
     .partnership {
+      
       .t-2 {
         font-size: $size-1;
       }
@@ -1081,7 +1083,7 @@ body {
         flex-wrap: wrap;
         flex-direction: row;
         img {
-          width: 33%;
+          width: 32.5%;
           height: 60px;
         }
       }

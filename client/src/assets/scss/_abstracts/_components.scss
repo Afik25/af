@@ -210,33 +210,19 @@
       border-top: 1px solid $white-color;
       display: flex;
       justify-content: space-between;
-      @include padding($size-105 0);
       .left {
+        @include padding($size-1 0);
         span {
-          color: $white-color;
-          font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-          font-size: $size-09;
-          margin-right: $size-05;
+          font-size: $size-06;
         }
         .link {
-          color: $gold-color;
-          font-size: $size-09;
-          font-weight: bold;
-          transition: all 0.3s ease-in-out;
-          &:hover {
-            color: $color-3;
-          }
+          font-size: $size-06;
         }
       }
       .right {
+        @include padding($size-1 0);
         .link {
-          color: $white-color;
-          font-size: $size-09;
-          margin-left: $size-1;
-          transition: all 0.3s ease-in-out;
-          &:hover {
-            color: $grey-color-1;
-          }
+          font-size: $size-07;
         }
       }
     }
