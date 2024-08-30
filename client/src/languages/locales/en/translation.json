@@ -1,0 +1,133 @@
+{
+  "terms": {
+    "agree": "I agree with",
+    "term": "the terms of use",
+    "privacy": "and the privacy policy."
+  },
+  "components": {
+    "header": {
+      "text-1": "Services",
+      "text-2": "Products",
+      "text-3": "About",
+      "text-4": "Contacts",
+      "text-5": "Contact Us"
+    },
+    "footer": {
+      "text-1": "Smart solution - enjoy and experience the technology life in your ways.",
+      "text-2": "Navigation",
+      "text-3": "Contact",
+      "text-4": "All Rights Reserved",
+      "text-5": "Powered by AFIK FOUNDATION",
+      "text-6": "Privacy policy",
+      "text-7": "Term and conditions"
+    }
+  },
+  "home": {
+    "text-1": "Smart solution - enjoy and experience the technology life in your ways.",
+    "text-2": "Dive into the world of Digital to Accelerate the transition to the next generation of technology!",
+    "text-3": "Contact Us",
+    "text-4": {
+      "main": "We deliver the satisfying, high-impact results that are only possible thanks to our values",
+      "one": "Creativity",
+      "two": "Speed",
+      "three": "Integrity",
+      "four": "Serviceability"
+    },
+    "text-5": {
+      "title": "Our services",
+      "subtitle": "Consultancy, Rapid creation of a digital experience.",
+      "items": {
+        "item-1": {
+          "title": "Applications Development",
+          "description": "With an integrated approach, we develop customized web, mobile and platform applications."
+        },
+        "item-2": {
+          "title": "Conception and Design",
+          "description": "Responsive UI/UX design of ergonomic web and mobile user interfaces with an intuitive user experience."
+        },
+        "item-3": {
+          "title": "Data Engineering",
+          "description": "Data processing and analysis; Following the adequate standard, we process and add value to data for efficient exploitation."
+        },
+        "item-4": {
+          "title": "Cloud Deployment",
+          "description": "With our beneficial advice on choosing from the full range of cloud providers, we help customers to put their solutions on the cloud in order to benefit from related services."
+        },
+        "item-5": {
+          "title": "APIs development",
+          "description": "With our expertise in several technologies (Python, JavaScript, .Net, Java, etc.), we design and implement APIs tailored to our customers needs."
+        },
+        "item-6": {
+          "title": "Integrations",
+          "description": "Integration of solutions in different blocks to form a single solution."
+        },
+        "item-7": {
+          "title": "More",
+          "description": "Other digital-related services."
+        }
+      }
+    },
+    "text-6": {
+      "one": "Let's make it big!",
+      "two": "Tell us about the project you'd like to work on with us, and we'll get back to you within 48 hours!",
+      "three": "Starting up a conversation"
+    },
+    "text-7": {
+      "title": "Our product range",
+      "subtitle": "We offer digital products that impact the daily life of society....",
+      "items": {
+        "item-1": {
+          "title": "MASOMO",
+          "description": "A digital school, accessible anywhere, anytime.",
+          "type": "Owner"
+        },
+        "item-2": {
+          "title": "SHOP",
+          "description": "ERP, a multi-module management platform for small and medium-sized organizations.",
+          "type": "Owner"
+        },
+        "item-3": {
+          "title": "AFYA",
+          "description": "A platform for managing medical records, monitoring and controlling your state of health.",
+          "type": "Owner"
+        },
+        "item-4": {
+          "title": "NA-AI",
+          "description": "An artificial intelligence-based platform.",
+          "type": "Owner"
+        }
+      }
+    },
+    "text-8": {
+      "title": "About us",
+      "description": "We are an organization committed to using technology as a powerful tool to support society in its daily life and make certain tasks much easier!",
+      "subtitle": "We are"
+    },
+    "text-9": {
+      "title": "It's also an Artificial Intelligence laboratory...",
+      "description": "We use data to develop intelligent tools that benefit the industry...",
+      "subtitle": "AI for society!"
+    },
+    "text-10": "There are working with us.",
+    "text-11": {
+      "title": "Contactez-nous",
+      "subtitle": "24heure/24, Notre équipe d'assistance est disponible et prête à vous répondre.",
+      "description": {
+        "element-1": "Kinshasa - Democratic Republic of Congo",
+        "element-2": "Your names",
+        "element-3": "Your e-mail",
+        "element-4": "Message subject",
+        "element-5": "Your message",
+        "element-6": "Send"
+      }
+    },
+    "text-12": {
+      "title": "What people are saying about us!",
+      "description": "Thank you Afik Foundation for the commendable service you have provided in digitizing our work.",
+      "subtitle": {
+        "element-1": "Keep up to date with all the latest news by subscribing to our Newsletter!",
+        "element-2": "Subscribe to"
+      }
+    }
+  }
+}

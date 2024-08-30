@@ -1,0 +1,133 @@
+{
+  "terms": {
+    "agree": "J'accepte",
+    "term": "les conditions d'utilisations",
+    "privacy": "et la politique de confidentialité."
+  },
+  "components": {
+    "header": {
+      "text-1": "Services",
+      "text-2": "Produits",
+      "text-3": "A propos",
+      "text-4": "Contacts",
+      "text-5": "Contactez-nous"
+    },
+    "footer": {
+      "text-1": "Solution intelligente - profitez et expérimentez la vie technologique à votre façon.",
+      "text-2": "Navigation",
+      "text-3": "Contact",
+      "text-4": "Tous droits réservés",
+      "text-5": "Développé par AFIK FOUNDATION",
+      "text-6": "Politique de confidentialité",
+      "text-7": "Conditions d'utilisation"
+    }
+  },
+  "home": {
+    "text-1": "Solution intelligente - profitez et expérimentez la vie technologique à votre façon.",
+    "text-2": "Plonger dans le monde du Digital afin d'Accelerer la transition vers la nouvelle génération technologique!",
+    "text-3": "Contactez-nous",
+    "text-4": {
+      "main": "Nous produisons des résultats satisfaisants et impactants possibles que grâce aux valeurs que nous imprimons",
+      "one": "Créativité",
+      "two": "Rapidité",
+      "three": "Intégrité",
+      "four": "Serviabilité"
+    },
+    "text-5": {
+      "title": "Nos services",
+      "subtitle": "Consultance, Création rapide d'une expérience numérique.",
+      "items": {
+        "item-1": {
+          "title": "Développement des Applications",
+          "description": "Avec une approche intégrée, nous développons des applications web, mobiles, plateforme sur mesure."
+        },
+        "item-2": {
+          "title": "Conception et Design",
+          "description": "Conception UI/UX Responsive des interfaces utilisateurs web et mobile ergonomique avec une expérience d'utilisation intuitive."
+        },
+        "item-3": {
+          "title": "Ingénierie des données",
+          "description": "Traitement et Analyse de Données; Suivant le standard adequate, nous traitons et donnons de la valeur aux données pour une explotation efficiente."
+        },
+        "item-4": {
+          "title": "Déploiement sur Cloud",
+          "description": "Avec nos conseils bénéfiques sur le choix dans l'ensemble des fournisseurs cloud, nous aidons les clients à mettre leurs solutions sur Cloud afin de bénéficier de services y relatif."
+        },
+        "item-5": {
+          "title": "Développement d'APIs",
+          "description": "Avec notre expertise dans plusieurs technologies (Python, JavaScript, .Net, Java, etc.), nous concevons et implementons des APIs adaptées seloin les besoins du client."
+        },
+        "item-6": {
+          "title": "Intégrations",
+          "description": "Intégrations des solutions sous forme de differentes bloques afin d'en constituer une seule et unique solution."
+        },
+        "item-7": {
+          "title": "Plus",
+          "description": "D'autres services liés au numérique."
+        }
+      }
+    },
+    "text-6": {
+      "one": "Commençon quelque chose de grand!",
+      "two": "Parlez de votre idée de projet pour lequel vous comptez travailler avec nous; et nous vous repondons dans les 48heures qui suivent!",
+      "three": "Démarer une conversation"
+    },
+    "text-7": {
+      "title": "Nos Produits",
+      "subtitle": "Nous avons proposé sur le marché, les produits digitals qui impacte la vie quotidienne de la société....",
+      "items": {
+        "item-1": {
+          "title": "MASOMO",
+          "description": "Un école numérique, accessible partout et à n'importe quel moment.",
+          "type": "Propriétaire"
+        },
+        "item-2": {
+          "title": "SHOP",
+          "description": "ERP, une plateforme de gestion de petites et moyennes organisations dotée de plusieurs modules de gestion.",
+          "type": "Propriétaire"
+        },
+        "item-3": {
+          "title": "AFYA",
+          "description": "Une plateforme de gestion de dossier medicale, suivi et controle de son État de Santé.",
+          "type": "Propriétaire"
+        },
+        "item-4": {
+          "title": "NA-AI",
+          "description": "Une plateforme basée sur d'intelligence artificielle.",
+          "type": "Propriétaire"
+        }
+      }
+    },
+    "text-8": {
+      "title": "A propos de nous",
+      "description": "Nous sommes une structure engagée et déterminer à faire de la technologie, un outil puissant et accompagnateur de la société dans son quotidien; afin de rendre certaines tâches beaucoup plus simple!",
+      "subtitle": "Nous sommes"
+    },
+    "text-9": {
+      "title": "C'est aussi un laboratoire d'Intelligence Artificielle...",
+      "description": "Nous nous servons de données pour développer des outils intelligent bénéfique pour l'industrie...",
+      "subtitle": "IA pour la société!"
+    },
+    "text-10": "Ils collaborent avec nous.",
+    "text-11": {
+      "title": "Contactez-nous",
+      "subtitle": "24heure/24, Notre équipe d'assistance est disponible et prête à vous répondre.",
+      "description": {
+        "element-1": "Kinshasa - Republique Démocratique du Congo",
+        "element-2": "Votre noms",
+        "element-3": "Votre e-mail",
+        "element-4": "Objet du message",
+        "element-5": "Votre message",
+        "element-6": "Envoyer"
+      }
+    },
+    "text-12": {
+      "title": "Ce que l'on dit de nous !",
+      "description": "Merci Afik Foundation pour le service combien louable que vous nous avez rendu pour la numérisation de nos travaux.",
+      "subtitle": {
+        "element-1": "Restez aussi informez à temps réel sur tous les évenéments en vous abonnant à la Newsletter !",
+        "element-2": "Abonnez-vous"
+      }
+    }
+  }
+}

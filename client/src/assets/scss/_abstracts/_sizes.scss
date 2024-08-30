@@ -1,0 +1,48 @@
+$size-01: 0.1rem;
+$size-02: 0.2rem;
+$size-03: 0.3rem;
+$size-04: 0.4rem;
+$size-05: 0.5rem;
+$size-06: 0.6rem;
+$size-07: 0.7rem;
+$size-08: 0.8rem;
+$size-09: 0.9rem;
+$size-1: 1rem;
+$size-101: 1.1rem;
+$size-102: 1.2rem;
+$size-103: 1.3rem;
+$size-104: 1.4rem;
+$size-105: 1.5rem;
+$size-106: 1.6rem;
+$size-107: 1.7rem;
+$size-108: 1.8rem;
+$size-109: 1.9rem;
+$size-2: 2rem;
+$size-201: 2.1rem;
+$size-202: 2.2rem;
+$size-203: 2.3rem;
+$size-204: 2.4rem;
+$size-205: 2.5rem;
+$size-206: 2.6rem;
+$size-207: 2.7rem;
+$size-208: 2.8rem;
+$size-209: 2.9rem;
+$size-3: 3rem;
+$size-301: 3.1rem;
+$size-302: 3.2rem;
+$size-303: 3.3rem;
+$size-304: 3.4rem;
+$size-305: 3.5rem;
+$size-306: 3.6rem;
+$size-307: 3.7rem;
+$size-308: 3.8rem;
+$size-309: 3.9rem;
+$size-4: 4rem;
+
+@mixin margin($padding: 10px) {
+  margin: $padding;
+}
+
+@mixin padding($padding: 10px) {
+  padding: $padding;
+}
